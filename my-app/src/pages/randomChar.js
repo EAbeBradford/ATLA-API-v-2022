@@ -14,7 +14,7 @@ function RandomChar() {
         position: ''
     })
     useEffect(() => {
-        axios.get('https://last-airbender-api.herokuapp.com/api/v1/characters/random')
+        axios.get('https://last-airbender-api.fly.dev/api/v1/characters/random')
             .then(res => {
                 console.log('Response from main API: ', res)
                 console.log('Home Data: ', res.data[0])
