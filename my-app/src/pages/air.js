@@ -14,7 +14,7 @@ const Air = () => {
 
   })
   useEffect(() => {
-    axios.get('https://avatar-the-last-airbender-api.herokuapp.com/api/v1/bending/airbending')
+    axios.get('https://last-airbender-api.fly.dev/api/v1/bending/airbending')
       .then(res => {
         console.log('Response from main API: ', res)
         console.log('air Data: ', res.data)
