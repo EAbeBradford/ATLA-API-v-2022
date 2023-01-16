@@ -15,7 +15,7 @@ const Water = () => {
 
   })
   useEffect(() => {
-    axios.get('https://avatar-the-last-airbender-api.herokuapp.com/api/v1/bending/waterbending')
+    axios.get('https://last-airbender-api.fly.dev/api/v1/bending/waterbending')
       .then(res => {
         console.log('Response from main API: ', res)
         console.log('water Data: ', res.data)
