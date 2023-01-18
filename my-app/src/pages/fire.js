@@ -15,7 +15,7 @@ const Fire = () => {
 
   })
   useEffect(() => {
-    axios.get('https://avatar-the-last-airbender-api.herokuapp.com/api/v1/bending/firebending')
+    axios.get('https://last-airbender-api.fly.dev/api/v1/bending/firebending')
       .then(res => {
         console.log('Response from main API: ', res)
         console.log('fire Data: ', res.data)
